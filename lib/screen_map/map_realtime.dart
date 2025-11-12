@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kakao_map_sdk/kakao_map_sdk.dart';
-import 'package:project/screen/tracking.dart';
+import 'package:project/screen_map/tracking.dart';
 
 class RealtimeMapView extends StatefulWidget {
   const RealtimeMapView({super.key});

@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:kakao_map_sdk/kakao_map_sdk.dart';
-import 'package:project/facility/facility_init.dart';
-import 'package:project/facility/facility_data.dart';
-import 'package:project/widgets/facility_info.dart';
-import 'package:project/screen/tracking.dart';
+import 'package:project/screen_map/facility/facility_init.dart';
+import 'package:project/screen_map/facility/facility_data.dart';
+import 'package:project/screen_map/widgets/facility_info.dart';
+import 'package:project/screen_map/tracking.dart';
 
 class NonRealtimeMapView extends StatefulWidget {
   const NonRealtimeMapView({super.key});

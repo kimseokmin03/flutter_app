@@ -1,6 +1,6 @@
 import 'package:csv/csv.dart';
 import 'package:flutter/services.dart';
-import 'package:project/facility/facility_init.dart';
+import 'package:project/screen_map/facility/facility_init.dart';
 
 class FacilityService {
   Future<List<Facility>> loadFacilitiesFromCsv() async {
