@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project/facility/facility_init.dart';
+import 'package:project/screen_map/facility/facility_init.dart';
 
 class FacilityInfoWindow extends StatelessWidget {
   final Facility facility;
