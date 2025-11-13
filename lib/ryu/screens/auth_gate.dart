@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:project/bottombar.dart';
 import 'package:provider/provider.dart';
 import '../services/auth_service.dart';
-import 'main_screen.dart';
 import 'welcome_screen.dart';
+import 'package:project/bottombar.dart';
 
 class AuthGate extends StatelessWidget {
   const AuthGate({Key? key}) : super(key: key);
@@ -22,7 +23,7 @@ class AuthGate extends StatelessWidget {
 
         if (snapshot.hasData && snapshot.data == true) {
           // ⭐️ 로그인이 되어 있으면 MainScreen
-          return const MainScreen();
+          return const MyBottomNavBar();
         }
 
         // ⭐️ 비로그인 상태이면 WelcomeScreen
