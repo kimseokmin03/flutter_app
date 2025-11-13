@@ -3,7 +3,6 @@ import 'package:project/bottombar.dart';
 import 'package:provider/provider.dart';
 import '../services/auth_service.dart';
 import 'welcome_screen.dart';
-import 'package:project/bottombar.dart';
 
 class AuthGate extends StatelessWidget {
   const AuthGate({Key? key}) : super(key: key);
